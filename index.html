@@ -40,13 +40,13 @@
             }
 
             function getMessages() {
-                $.get('https://damp-ridge-52782.herokuapp.com/', (data) => {
+                $.get('https://damp-ridge-52782.herokuapp.com/messages', (data) => {
                     data.forEach(addMessage);
                 })
             }
 
             function postMessage(message) {
-                $.post('https://damp-ridge-52782.herokuapp.com/', message )
+                $.post('https://damp-ridge-52782.herokuapp.com/messages', message )
             }
 
         </script>

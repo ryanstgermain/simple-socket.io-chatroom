@@ -1,9 +1,9 @@
-#Simple Chatroom App
+# Simple Chatroom App
 
-##Tools Used:
+## Tools Used:
 
 expressjs, nodejs, heroku, mongodb, & socket.io
 
-##Deployed Link:
+## Deployed Link:
 
 https://damp-ridge-52782.herokuapp.com/
